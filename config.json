@@ -25,6 +25,8 @@
       "address"
     ]
   },
+  "ssl_key_file": "/etc/letsencrypt/live/spotincorp.com/privkey.pem",
+  "ssl_cert_file": "/etc/letsencrypt/live/spotincorp.com/fullchain.pem",
 
   "sheetId":"1ECJmT3_uyHDYflsgEH9DaS1gsju1_CUzE55oUlYrMw8",
   "sheetName":"IntuitSheet"

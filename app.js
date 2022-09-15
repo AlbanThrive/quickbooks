@@ -483,11 +483,18 @@ var odata = [];
         }
 console.log("QKD::",JSON.stringify(pushData) )
 })
+const httpsServer = https.createServer({
+      key: fs.readFileSync(config.ssl_key_file),
+      cert: fs.readFileSync(config.ssl_cert_file),
+    }, app);
 
+httpsServer.listen(4000, () => {
+    console.log('HTTPS Server running on port 4000');
+});
 
-app.listen(4000, function () {
+/*app.listen(4000, function () {
   console.log('Example app listening on port 4000!')
-})
+})*/
 // https.createServer(function (req, res) {
 //     res.writeHead(200, {'Content-Type': 'text/plain'});
 //     res.write('Hello World!');
