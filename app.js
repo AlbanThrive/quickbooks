@@ -4,6 +4,7 @@ var express = require('express')
 var session = require('express-session')
 var app = express()
 var https = require('https');
+const fs = require('fs');
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.use(express.static(path.join(__dirname, 'public')))
