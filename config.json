@@ -1,7 +1,7 @@
 {
   "clientId": "ABu0nwLzxOdcvB41siXpjH5loxywV2LXe13SD2Wfe252FkDqG9",
   "clientSecret": "tMgjhoDEiQaQfdXQ4y3Dd7THm8AvWRkRzm6wO7M4",
-  "redirectUri": "http://localhost:4000/callback",
+  "redirectUri": "https://spotincorp.com:4000/callback",
   "configurationEndpoint": "https://developer.api.intuit.com/.well-known/openid_sandbox_configuration/",
   "api_uri": "https://quickbooks.api.intuit.com/v3/company/",
   "scopes": {
