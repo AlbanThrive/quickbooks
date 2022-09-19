@@ -74,6 +74,7 @@ var Tools = function () {
         })
       } else {
         // No 401, continue!
+        console.log('tool', err)
         resolve({err, response})
       }
     })
