@@ -1,7 +1,7 @@
 var Tokens = require('csrf')
 var csrf = new Tokens()
 var ClientOAuth2 = require('client-oauth2')
-var request = require('request')
+var request = require('axios')
 var config = require('../config.json')
 
 var Tools = function () {
