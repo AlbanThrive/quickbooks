@@ -55,8 +55,8 @@ var Tools = function () {
   // and the API call should be tried again.
   this.checkForUnauthorized = function(req, requestObj, err, response) {
     return new Promise(function (resolve, reject) {
-      if(response.statusCode == 401) {
-        console.log('Received a 401 response!  Trying to refresh tokens.')
+      /*if(response.statusCode == 401) {
+        console.log('Received a 401 response!  Trying to refresh tokens.')*/
 
         // Refresh the tokens
         tools.refreshTokens(req.session).then(function(newToken) {
@@ -72,11 +72,11 @@ var Tools = function () {
           // Error refreshing the tokens
           reject(err)
         })
-      } else {
+     /* } else {
         // No 401, continue!
         console.log('tool', err)
         resolve({err, response})
-      }
+      }*/
     })
   }
 
