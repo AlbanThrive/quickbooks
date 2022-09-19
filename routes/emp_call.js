@@ -1,6 +1,6 @@
 var tools = require('../tools/tools.js')
 var config = require('../config.json')
-var request = require('request')
+var request = require('axios')
 var express = require('express')
 var router = express.Router()
 
