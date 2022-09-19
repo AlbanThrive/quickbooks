@@ -13,7 +13,7 @@ router.get('/', function (req, res) {
     })
 console.log(req.session.realmId)
     // Set up API call (with OAuth2 accessToken)
-    var url = config.api_uri + req.session.realmId + '/query/' + '?query=select * from Employee&minorversion=4'
+    var url = config.api_uri + req.session.realmId + '/query/' + '?query=select * from Customer&minorversion=4'
     console.log('Making API call to: ' + url)
     var requestObj = {
         url: url,
