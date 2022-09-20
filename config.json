@@ -3,7 +3,7 @@
   "clientSecret": "tMgjhoDEiQaQfdXQ4y3Dd7THm8AvWRkRzm6wO7M4",
   "redirectUri": "https://spotincorp.com:4000/callback",
   "configurationEndpoint": "https://developer.api.intuit.com/.well-known/openid_sandbox_configuration/",
-  "api_uri": "https://quickbooks.api.intuit.com/v3/company/",
+  "api_uri": "https://sandbox-quickbooks.api.intuit.com/v3/company/",
   "scopes": {
     "sign_in_with_intuit": [
       "com.intuit.quickbooks.accounting",
